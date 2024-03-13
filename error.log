@@ -1,0 +1,775 @@
+2024-03-09 14:13:33,934	ERROR	Error during ERPNext API Call.	2	1708082319.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 2
+
+2024-03-09 14:13:34,016	ERROR	Error during ERPNext API Call.	2	1708082355.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 2
+
+2024-03-09 14:13:34,600	ERROR	Error during ERPNext API Call.	6	1708083251.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 6
+
+2024-03-09 14:13:34,611	ERROR	Error during ERPNext API Call.	6	1708083255.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 6
+
+2024-03-09 14:13:34,845	ERROR	Error during ERPNext API Call.	2	1708083753.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 2
+
+2024-03-09 14:14:14,879	ERROR	Error during ERPNext API Call.	84	1709731844.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-09 14:14:16,721	ERROR	Error during ERPNext API Call.	84	1709785516.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-09 14:14:17,647	ERROR	Error during ERPNext API Call.	84	1709818229.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-09 14:14:19,066	ERROR	Error during ERPNext API Call.	84	1709871806.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-09 14:14:19,081	ERROR	Error during ERPNext API Call.	84	1709871808.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-09 14:14:20,893	ERROR	Error during ERPNext API Call.	84	1709957881.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-09 14:14:26,492	ERROR	192.168.2.209 exception when fetching from device...
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+2024-03-09 14:14:26,494	ERROR	exception when calling pull_process_and_push_data function for device{"device_id": "Machine_2", "ip": "192.168.2.209", "punch_direction": null, "clear_from_device_on_fetch": false}
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 62, in main
+    pull_process_and_push_data(device, device_attendance_logs)
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 89, in pull_process_and_push_data
+    device_attendance_logs = get_all_attendance_from_device(device['ip'], device_id=device['device_id'], clear_from_device_on_fetch=device['clear_from_device_on_fetch'])
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 170, in get_all_attendance_from_device
+    raise Exception('Device fetch failed.')
+Exception: Device fetch failed.
+2024-03-09 15:13:49,875	ERROR	192.168.2.209 exception when fetching from device...
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+2024-03-09 15:13:49,876	ERROR	exception when calling pull_process_and_push_data function for device{"device_id": "Machine_2", "ip": "192.168.2.209", "punch_direction": null, "clear_from_device_on_fetch": false}
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 62, in main
+    pull_process_and_push_data(device, device_attendance_logs)
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 89, in pull_process_and_push_data
+    device_attendance_logs = get_all_attendance_from_device(device['ip'], device_id=device['device_id'], clear_from_device_on_fetch=device['clear_from_device_on_fetch'])
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 170, in get_all_attendance_from_device
+    raise Exception('Device fetch failed.')
+Exception: Device fetch failed.
+2024-03-09 16:13:58,450	ERROR	192.168.2.209 exception when fetching from device...
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+2024-03-09 16:13:58,451	ERROR	exception when calling pull_process_and_push_data function for device{"device_id": "Machine_2", "ip": "192.168.2.209", "punch_direction": null, "clear_from_device_on_fetch": false}
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 62, in main
+    pull_process_and_push_data(device, device_attendance_logs)
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 89, in pull_process_and_push_data
+    device_attendance_logs = get_all_attendance_from_device(device['ip'], device_id=device['device_id'], clear_from_device_on_fetch=device['clear_from_device_on_fetch'])
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 170, in get_all_attendance_from_device
+    raise Exception('Device fetch failed.')
+Exception: Device fetch failed.
+2024-03-09 17:52:18,465	ERROR	Error during ERPNext API Call.	84	1709986604.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-09 17:52:18,476	ERROR	Error during ERPNext API Call.	84	1709986606.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-09 17:52:23,668	ERROR	192.168.2.209 exception when fetching from device...
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+2024-03-09 17:52:23,670	ERROR	exception when calling pull_process_and_push_data function for device{"device_id": "Machine_2", "ip": "192.168.2.209", "punch_direction": null, "clear_from_device_on_fetch": false}
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 62, in main
+    pull_process_and_push_data(device, device_attendance_logs)
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 89, in pull_process_and_push_data
+    device_attendance_logs = get_all_attendance_from_device(device['ip'], device_id=device['device_id'], clear_from_device_on_fetch=device['clear_from_device_on_fetch'])
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 170, in get_all_attendance_from_device
+    raise Exception('Device fetch failed.')
+Exception: Device fetch failed.
+2024-03-13 10:29:02,228	ERROR	192.168.10.121 exception when fetching from device...
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.10.121)
+2024-03-13 10:29:02,230	ERROR	exception when calling pull_process_and_push_data function for device{"device_id": "Machine_1", "ip": "192.168.10.121", "punch_direction": "AUTO", "clear_from_device_on_fetch": false}
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.10.121)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 62, in main
+    pull_process_and_push_data(device, device_attendance_logs)
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 89, in pull_process_and_push_data
+    device_attendance_logs = get_all_attendance_from_device(device['ip'], device_id=device['device_id'], clear_from_device_on_fetch=device['clear_from_device_on_fetch'])
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 170, in get_all_attendance_from_device
+    raise Exception('Device fetch failed.')
+Exception: Device fetch failed.
+2024-03-13 10:29:02,235	ERROR	192.168.2.209 exception when fetching from device...
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+2024-03-13 10:29:02,236	ERROR	exception when calling pull_process_and_push_data function for device{"device_id": "Machine_2", "ip": "192.168.2.209", "punch_direction": null, "clear_from_device_on_fetch": false}
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 62, in main
+    pull_process_and_push_data(device, device_attendance_logs)
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 89, in pull_process_and_push_data
+    device_attendance_logs = get_all_attendance_from_device(device['ip'], device_id=device['device_id'], clear_from_device_on_fetch=device['clear_from_device_on_fetch'])
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 170, in get_all_attendance_from_device
+    raise Exception('Device fetch failed.')
+Exception: Device fetch failed.
+2024-03-13 11:29:07,279	ERROR	Error during ERPNext API Call.	84	1709992418.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-13 11:29:09,439	ERROR	Error during ERPNext API Call.	85	1710164211.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 85
+
+2024-03-13 11:29:11,549	ERROR	Error during ERPNext API Call.	85	1710217580.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 85
+
+2024-03-13 11:29:11,560	ERROR	Error during ERPNext API Call.	85	1710217582.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 85
+
+2024-03-13 11:29:12,534	ERROR	Error during ERPNext API Call.	85	1710250446.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 85
+
+2024-03-13 11:29:12,546	ERROR	Error during ERPNext API Call.	85	1710250448.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 85
+
+2024-03-13 12:29:05,182	ERROR	Error during ERPNext API Call.	85	1710303670.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 85
+
+2024-03-13 12:29:05,193	ERROR	Error during ERPNext API Call.	85	1710303672.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 85
+
+2024-03-13 12:29:05,204	ERROR	Error during ERPNext API Call.	85	1710303676.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 85
+
+2024-03-13 12:29:05,480	ERROR	Error during ERPNext API Call.	84	1710304571.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-13 12:29:05,493	ERROR	Error during ERPNext API Call.	84	1710304573.0	Machine_1	IN	Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 110, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1716, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/hrms/hrms/hr/doctype/employee_checkin/employee_checkin.py", line 95, in add_log_based_on_employee_field
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 600, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 565, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 516, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: No Employee found for the given employee field value. 'attendance_device_id': 84
+
+2024-03-13 12:29:10,625	ERROR	192.168.2.209 exception when fetching from device...
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+2024-03-13 12:29:10,625	ERROR	exception when calling pull_process_and_push_data function for device{"device_id": "Machine_2", "ip": "192.168.2.209", "punch_direction": null, "clear_from_device_on_fetch": false}
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 149, in get_all_attendance_from_device
+    conn = zk.connect()
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/venv/lib/python3.10/site-packages/zk/base.py", line 367, in connect
+    raise ZKNetworkError("can't reach device (ping %s)" % self.__address[0])
+zk.exception.ZKNetworkError: can't reach device (ping 192.168.2.209)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 62, in main
+    pull_process_and_push_data(device, device_attendance_logs)
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 89, in pull_process_and_push_data
+    device_attendance_logs = get_all_attendance_from_device(device['ip'], device_id=device['device_id'], clear_from_device_on_fetch=device['clear_from_device_on_fetch'])
+  File "/home/admin_kbp/kbp15/frappe-bench/biometric-attendance-sync-tool/erpnext_sync.py", line 170, in get_all_attendance_from_device
+    raise Exception('Device fetch failed.')
+Exception: Device fetch failed.

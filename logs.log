@@ -1,0 +1,47 @@
+2024-03-09 14:13:32,036	INFO	Cleared for lift off!
+2024-03-09 14:13:32,036	INFO	Processing Device: Machine_1
+2024-03-09 14:13:32,115	INFO	192.168.10.121	Device Disable Attempted. Result:	True
+2024-03-09 14:13:32,594	INFO	192.168.10.121	Attendances Fetched:	813
+2024-03-09 14:13:32,628	INFO	192.168.10.121	Device Enable Attempted. Result:	True
+2024-03-09 14:14:21,489	INFO	Successfully processed Device: Machine_1
+2024-03-09 14:14:21,489	INFO	Processing Device: Machine_2
+2024-03-09 14:14:26,497	INFO	Mission Accomplished!
+2024-03-09 15:13:43,984	INFO	Cleared for lift off!
+2024-03-09 15:13:43,985	INFO	Processing Device: Machine_1
+2024-03-09 15:13:44,059	INFO	192.168.10.121	Device Disable Attempted. Result:	True
+2024-03-09 15:13:44,800	INFO	192.168.10.121	Attendances Fetched:	813
+2024-03-09 15:13:44,847	INFO	192.168.10.121	Device Enable Attempted. Result:	True
+2024-03-09 15:13:44,866	INFO	Successfully processed Device: Machine_1
+2024-03-09 15:13:44,866	INFO	Processing Device: Machine_2
+2024-03-09 15:13:49,879	INFO	Mission Accomplished!
+2024-03-09 16:13:52,900	INFO	Cleared for lift off!
+2024-03-09 16:13:52,900	INFO	Processing Device: Machine_1
+2024-03-09 16:13:52,965	INFO	192.168.10.121	Device Disable Attempted. Result:	True
+2024-03-09 16:13:53,394	INFO	192.168.10.121	Attendances Fetched:	813
+2024-03-09 16:13:53,417	INFO	192.168.10.121	Device Enable Attempted. Result:	True
+2024-03-09 16:13:53,445	INFO	Successfully processed Device: Machine_1
+2024-03-09 16:13:53,445	INFO	Processing Device: Machine_2
+2024-03-09 16:13:58,453	INFO	Mission Accomplished!
+2024-03-09 17:52:17,494	INFO	Cleared for lift off!
+2024-03-09 17:52:17,494	INFO	Processing Device: Machine_1
+2024-03-09 17:52:17,556	INFO	192.168.10.121	Device Disable Attempted. Result:	True
+2024-03-09 17:52:18,040	INFO	192.168.10.121	Attendances Fetched:	817
+2024-03-09 17:52:18,061	INFO	192.168.10.121	Device Enable Attempted. Result:	True
+2024-03-09 17:52:18,660	INFO	Successfully processed Device: Machine_1
+2024-03-09 17:52:18,660	INFO	Processing Device: Machine_2
+2024-03-09 17:52:23,672	INFO	Mission Accomplished!
+2024-03-13 10:29:02,175	INFO	Cleared for lift off!
+2024-03-13 10:29:02,190	INFO	Processing Device: Machine_1
+2024-03-13 10:29:02,231	INFO	Processing Device: Machine_2
+2024-03-13 10:29:02,237	INFO	Mission Accomplished!
+2024-03-13 11:29:04,431	INFO	Cleared for lift off!
+2024-03-13 11:29:04,432	INFO	Processing Device: Machine_1
+2024-03-13 11:29:04,536	INFO	192.168.10.121	Device Disable Attempted. Result:	True
+2024-03-13 11:29:05,084	INFO	192.168.10.121	Attendances Fetched:	954
+2024-03-13 11:29:05,275	INFO	192.168.10.121	Device Enable Attempted. Result:	True
+2024-03-13 12:29:04,478	INFO	Cleared for lift off!
+2024-03-13 12:29:04,478	INFO	Processing Device: Machine_1
+2024-03-13 12:29:04,478	ERROR	Device Attendance Dump Found in Log Directory. This can mean the program crashed unexpectedly. Retrying with dumped data.
+2024-03-13 12:29:05,619	INFO	Successfully processed Device: Machine_1
+2024-03-13 12:29:05,620	INFO	Processing Device: Machine_2
+2024-03-13 12:29:10,627	INFO	Mission Accomplished!
